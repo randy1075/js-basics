@@ -19,9 +19,29 @@ console.log(pet);  // <= this should print out sebastian the pug
 
 * Declare variables named firstName, lastName, birthPlace, favFood, favDrink, favSong, favAnimal, favColor, favSport, favDoughnut.
 
+
 * Assign your own string values to each variable and console.log each variable.
 */
-
+var firstName = "Randy";
+console.log(firstName);			
+var lastName = "Nitahara";
+console.log  (lastName);
+var birthPlace = "Honolulu";
+console.log (birthPlace);
+var favFood = "exogenous ketones";
+console.log (favFood);
+var favDrink = "Bourbon";
+console.log (favDrink);
+var favSong = "Despacito";
+console.log (favSong);
+var favAnimal = "Rabbit";
+console.log (favAnimal);
+var favColor = "orange";
+console.log (favColor);
+var favSport = "Sex";
+console.log (favSport);
+var favDoughnut = "Wafford";
+console.log (favDoughnut);
 
 /*
 * #2
@@ -31,6 +51,20 @@ console.log(pet);  // <= this should print out sebastian the pug
 *
 * Assign your own number values to each variable and console.log each variable.
 */
+var favNumber = 11;
+console.log (favNumber);
+var yourShoeSize = 12;
+console.log (yourShoeSize);
+var thatOnePrinceSong = 1;
+console.log (thatOnePrinceSong);
+var floorsAlaMoanaHotel = 5;
+console.log (floorsAlaMoanaHotel);
+var numOfJapanPrefectures = 120;
+console.log (numOfJapanPrefectures);
+var numOfABCstoresinHi = 23;
+console.log (numOfABCstoresinHi);
+var cheesecakesFlavAtCheeseCakeFac = 54;
+console.log (cheesecakesFlavAtCheeseCakeFac);
 
 
 /*
@@ -54,20 +88,36 @@ var booya1 = 3 > 2;
 console.log(booya1);
 
 //Make me False:
-var booya2;
-
+var booya2 = 3 < 2;
+console.log (booya2);
 //Make me True:
-var booya3;
-
+var booya3 = 3 >= 3;
+console.log (booya3);
 //Make me False:
-var booya4;
-
+var booya4 = 4 <= 3;
+console.log (booya4);
 //Make me True:
-var booya5; 
-
+var booya5 = 3 === 3; 
+console.log (booya5);
 //Make me False:
-var booya6;
-
+var booya6 = 2 !== 2;
+console.log (booya6);
+var likesMcDonalds = 3 > 2;
+console.log (likesMcDonalds);
+var likesMcDonalds = 3 < 2;
+console.log (likesMcDonalds);
+var eatsDoughnuts = 4 >= 3;
+console.log (eatsDoughnuts);
+var eatsDoughnuts = 4 <= 3;
+console.log (eatsDoughnuts);
+var ownsRedShoes = 4 === 4;
+console.log (ownsRedShoes);
+var ownsRedShoes = 4 === 3;
+console.log (ownsRedShoes);
+var ownsRedShoes = 4 !== "4";
+console.log (ownsRedShoes);
+var ownsRedShoes = 4 !== 4;
+console.log (ownsRedShoes);
 
 /*
 * #4
@@ -77,6 +127,12 @@ var booya6;
 *
 * Assign a null value to each variable and console.log each variable. 
 */
+var completedPrepClass = null;
+console.log (completedPrepClass);
+var traveledToMars = null;
+console.log (traveledToMars);
+var buyVicADrink = null;
+console.log (buyVicADrink);
 
 
 /*
@@ -87,6 +143,12 @@ var booya6;
 *
 * Do not assign a value to the variable and console.log each variable.
 */
+var superBowlChamps = 
+console.log (superBowlChamps);
+var nextPres = 
+console.log (nextPres);
+var hawaiiRail = 
+console.log (hawaiiRail);
 
 
 /*
@@ -102,6 +164,18 @@ var booya6;
 *
 * Console.log each variable.
 */
+var plateLunch = ["beef", "stew", "mac", "salad", "rice"];
+console.log (plateLunch);
+var donutBox = ["hole", "cream", "chocolate", "diet", "apple"];
+console.log (donutBox);
+var westCoast = ["California", "Oregon", "Washington"];
+console.log (westCoast);
+var lotteryResult = [5, 6, 7, 8, 9];
+console.log (lotteryResult);
+var hamajang = ["f", 7, "m", 9, "l", 8];
+console.log (hamajang);
+var dynamicDuos = [[1,1],[2,2],[3,3]];
+console.log (dynamicDuos);
 
 
 /*7
@@ -113,6 +187,11 @@ Console.log the length of this array.
 Console.log only "carrot cake" from this array.
 Console.log only "cool ranch doritos" from this array
 */
+var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuff oreos", "cool ranch doritos", "orange chicken"];
+console.log (partyList);
+console.log (partyList.length);
+console.log (partyList[0]);
+console.log (partyList[4]);
 
 
 /*
@@ -126,8 +205,9 @@ Console.log only "cool ranch doritos" from this array
 *
 * i.e "Hi my name is Bruce Wayne and I was born in Gotham."
 */
-
-
+var fullName = [firstName + " " + lastName];
+console.log (fullName);
+console.log ("Hi my name is" + " " + fullName + " " + "and I was born in" + " " +birthPlace);
 /*
 * #9 
 * Arithmetic
@@ -143,8 +223,18 @@ Console.log only "cool ranch doritos" from this array
 *
 * Console.log each new variable.
 */
-
-
+var num1 = 1;
+var num2 = 2;
+console.log (num1 + num2);
+var sum = num1 + num2 ;
+console.log (num1 - num2);
+var difference = (num1 - num2);
+console.log (num1 * num2);
+var product = (num1 * num2);
+console.log (num1 / num2);
+var quotient = (num1 / num2);
+console.log (num1 % num2);
+var leftOver = (num1 % num2);
 /*
 * #10
 * Comparisons & Logic
@@ -157,8 +247,14 @@ Console.log only "cool ranch doritos" from this array
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Console.log the variables. Do you see the difference between strict equality vs. equality?
 */
-
-
+var isStrictlyEqual = ("Tacocat" === "tacocat");
+var isLooselyEqual = ("Tacocat" == "tacocat"); 
+var sameNumba = ("5" === 5);
+console.log (sameNumba);
+var sameNumba = ("5" == 5);
+console.log (isStrictlyEqual);
+console.log (isLooselyEqual);
+console.log (sameNumba);
 /* 
 * #11
 * Logical AND Logical OR
@@ -178,8 +274,10 @@ var booya9;
 var booya10;
 
 //Console.log each variable
-
-
+var newidea = (5 > 1) && (2 !== 2);
+console.log (newidea);
+var oldidea = (2 >= 2)  || (5 === 5);
+console.log (oldidea);
 /*
 * #12
 * Assignments
@@ -189,8 +287,18 @@ var booya10;
 * 
 * Change the value of the muNum variable by using the assignment operators and console.log myNum after each assignment.
 */
-
-
+var myNum = 1;
+console.log (myNum); 
+myNum += 3;
+console.log (myNum);
+myNum -= 1;
+console.log (myNum);
+myNum *= 2;
+console.log (myNum);
+myNum /= 5;
+console.log (myNum);
+myNum %= 3;
+console.log (myNum);
 
 //increment and assign 3 (+=):
 
@@ -219,9 +327,13 @@ var booya10;
 * For example, if the value is `blueberry`, it should return "Today's special is blueberry pie."
 * 
 * Declare a variable pieResult and assign it to the function call.
-* Console.log the variable to see the result.*/
-
-
+* Console.log the variable to see the result.
+*/
+function bakePie (ingredient){
+	return "Today's special is " + ingredient + " pie";
+}
+var pieResult = bakePie ("blueberry");
+console.log (pieResult);
 /*
 * Declare a Function named jump which has a single parameter, height.
 * 
@@ -232,8 +344,11 @@ var booya10;
 * Declare a variable jumpResult and assign it to the function call.
 * Console.log the variable to see the result.
 */
-
-
+function jump (height){
+	return "You jumped " + height + " feet high";
+}
+var jumpResult = jump (2);
+console.log (jumpResult);
 /*
 * Declare a Function named makeFood which takes three parameters, ingredient1, ingredient2, recipeName.
 * 
@@ -243,4 +358,10 @@ var booya10;
 *
 * Declare a variable foodResult and assign it to the function call. Console.log the variable to see the result.
 */
+
+function makeFood (ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName;
+}
+var foodResult = makeFood ("peanut butter", "jelly", "sammich");
+console.log (foodResult);
 
